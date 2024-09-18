@@ -27,7 +27,6 @@ import { Sort, type Graph } from "layered-topological-sort";
 
 const graph: Graph = {
     root: "A",
-    nodes: ["A", "B", "C", "D", "E", "F", "G"],
     edges: {
         "A": ["B", "C"],
         "B": ["D"],

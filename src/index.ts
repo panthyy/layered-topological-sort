@@ -1,18 +1,15 @@
 
 export type Graph = {
   root: string;
-  nodes: string[];
   edges: { [key: string]: string[] };
 };
 
 
-/**
- * Sort the graph into layers
+/** 
  * @param graph 
  * @returns 
  */
 export function Sort(graph: Graph): string[][] | null {
-  if (graph.nodes.length === 0) return null;
 
   const layers: string[][] = [[graph.root]];
   const queue: string[][] = [[graph.root]];

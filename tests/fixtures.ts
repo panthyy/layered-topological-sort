@@ -9,7 +9,6 @@ export const cases: Case[] = [
   {
     graph: {
       root: "a",
-      nodes: ["a", "b", "c", "d"],
       edges: {
         "a": ["b", "c"],
         "b": ["d"],
@@ -22,7 +21,6 @@ export const cases: Case[] = [
   {
     graph: {
       root: "a",
-      nodes: ["a", "b", "c", "d", "e"],
       edges: {
         "a": ["b", "c", "e"],
         "c": ["b", "d"],
@@ -34,7 +32,6 @@ export const cases: Case[] = [
   {
     graph: {
       root: "a",
-      nodes: ["a", "b", "c", "d", "e", "f"],
       edges: {
         "a": ["b", "c", "e"],
         "c": ["b", "d", "f"],
