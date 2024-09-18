@@ -1,0 +1,39 @@
+{
+  "name": "layered-topological-sort",
+  "description": "Layered Topological Sorting",
+  "version": "0.0.3",
+  "main": "index.js",
+  "type": "module",
+  "author": "CodeByKai",
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      },
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panthyy/layered-topological-sort.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Graph",
+    "Topological Sorting",
+    "Layered"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc",
+    "publish": "pnpm build && pnpm publish"
+  },
+  "devDependencies": {
+    "vitest": "^1.3.1",
+    "typescript": "^5.0.0"
+  }
+}
